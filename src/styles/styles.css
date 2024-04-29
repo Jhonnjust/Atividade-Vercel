@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100vw;
+    min-height: 100vh;
+    background-color:gray; /* Light gray background */
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: auto;
+    height: 100px; /* Maintain aspect ratio */
+  }
+  
+  h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #ddd;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .email-input,
+  .password-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .login-button,
+  .google-login-button,
+  .logout-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-button,
+  .google-login-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .logout-button {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .login-button:hover,
+  .google-login-button:hover,
+  .logout-button:hover {
+    background-color: #ddd;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    border: 1px solid #ccc;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
